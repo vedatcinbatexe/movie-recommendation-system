@@ -26,7 +26,7 @@ src/recommender/    Reusable code: data loading, models, evaluation
 
 - [x] Exploratory data analysis
 - [ ] Load the data into PostgreSQL
-- [ ] Popularity baseline
+- [x] Train/test split and baselines (global average, movie average, popularity list)
 - [ ] Content-based filtering (genres + cosine similarity)
 - [ ] Collaborative filtering (KNN, SVD)
 - [ ] Evaluation: RMSE, MAE, Precision@K, Recall@K
