@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Data, database and trained models are reproducible, so keep them out of git
+data/
+models/
+*.db
+
+# Local study notes, not pushed
+notes/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
